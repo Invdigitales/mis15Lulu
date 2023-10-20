@@ -78,8 +78,8 @@
     border-radius: 50%;
     background: #76887084;
     animation: load-pulse 1s infinite linear;
-    margin-left: 73%;
-    margin-top: -18%;
+    margin-left: 71%;
+    margin-top: -16%;
   }
   
   @keyframes load-pulse {
@@ -105,8 +105,8 @@
     width: 70px;
     height: 70px;
     position: relative;
-    margin-left: 38%;
-    margin-top: -13%;
+    margin-left: 43%;
+    margin-top: -12%;
   }
   
   .loader:before {
@@ -494,6 +494,8 @@ margin-top: 5%;
   width: 35%;
   margin-left: 55%;
   margin-top: -45%;
+} 
+
 }
-}
- 
+
+
