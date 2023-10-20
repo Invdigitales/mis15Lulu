@@ -1,0 +1,499 @@
+* body {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*PORTADA*/
+  
+ 
+ 
+
+  
+  
+  
+  img {
+    width: 100%;
+    margin-right: 50px;
+    box-shadow: 0px 3px 5px rgba(rgb(255, 255, 255), rgb(38, 39, 38), brgb(65, 65, 66) alpha);
+  }
+  
+  /*CUENTA REGRESIVA*/
+  
+  @media (max-width: 730px) {
+    .cuenta-regresiva {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 1em;
+      padding: 0.8em;
+      margin-top: 1%;
+  }
+  .cr-time > span {
+      font-size: 15px;
+      font-weight: bold;
+      color: #97B58E;
+      
+  }
+  .cr-desc {
+      color: #8C774C;
+      font-family: 'Sacramento', cursive;
+      
+  }
+  .cr-block {
+      background: #c9c9c92e;
+      border-radius: 5px;
+      padding: 0.1em 0.5em;
+      background-size: 80%;
+  }
+  .Play{
+  
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    color: #b7b2b6;
+   
+   }
+    h5{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -10%;
+    
+    
+    }
+    .audio{
+      width: 35%;
+      height: 20px;
+      margin-left: 32%;
+      background-color:  #f5f5f5;
+      color: #D6AB8A;
+      margin-top: -45%;
+      
+  }
+  
+  
+  .loader-pulse {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #76887084;
+    animation: load-pulse 1s infinite linear;
+    margin-left: 73%;
+    margin-top: -18%;
+  }
+  
+  @keyframes load-pulse {
+    0% {
+      transform: scale(0.15);
+      opacity: 0;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin-left: 38%;
+    margin-top: -13%;
+  }
+  
+  .loader:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+  }
+  
+  .loader-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .loader-block {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    margin: 1px;
+    background-color: #688360;
+    box-shadow: 0 0 20px #fff;
+    animation: loader_562 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  }
+  
+  .loader-block:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  
+  .loader-block:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .loader-block:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  
+  .loader-block:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  
+  .loader-block:nth-child(5) {
+    animation-delay: 0.5s;
+  }
+  
+  .loader-block:nth-child(6) {
+    animation-delay: 0.6s;
+  }
+  
+  .loader-block:nth-child(7) {
+    animation-delay: 0.7s;
+  }
+  
+  .loader-block:nth-child(8) {
+    animation-delay: 0.8s;
+  }
+  
+  @keyframes loader_562 {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    }
+  
+    20% {
+      transform: scale(1, 2.5);
+      box-shadow: 0 0 50px rgba(255, 255, 255, 0.7);
+    }
+  
+    40% {
+      transform: scale(1);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    }
+  }
+  
+
+
+
+
+
+
+.cajaceremonia{
+  margin-top: -260%;
+}
+  .parrafo1{
+    text-align: center;
+      font-family: 'Great Vibes', cursive;
+       font-size: 27px;
+       color: #888888;
+       
+  }
+  
+  .linea{
+    color:#898989;
+    width: 70%;
+   margin-left: 15%;
+   
+  }
+  .parrafo2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+     font-size: 25px;
+     color:#CF9D9C;
+     
+  }
+  .parrafo3{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+     font-size: 25px;
+     color: #888888;
+  }
+  .click1 {
+    padding: 1px 9px;
+    font-size: 24px;
+    font-weight: 1200;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #E08D84;
+    border-radius: 7px;
+    box-shadow: 1px 1px 30px -5px rgb(253, 213, 255);
+    cursor: pointer;
+    margin-left: 34%;
+    margin-top: 4%;
+    background-image: url(./imagenes/NMG4.gif);
+    background-size: 50%;
+    font-family: 'Dancing Script', cursive;  
+  }
+  .iglesia{
+    width: 20%;
+    margin-left: 40%;
+  }
+ 
+  
+  .parrafo04{
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+     font-size: 25px;
+     color: #888888;
+     margin-top: 10%;
+    
+
+  }
+  
+  
+  .cardimg{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+   
+  }
+  
+  .cardtitle{
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+     font-size: 25px;
+     color: #888888;
+  }
+  .cardtext{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+     font-size: 18px;
+     color: #888888;
+    margin-top: -3%;
+  }
+  .cardtext1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+     font-size: 18px;
+     color: #888888;
+     margin-top: 3%;
+  }
+  .mapa{
+    width: 80%;
+    height: 80%;
+    margin-left: 23%;
+  margin-top: 5%;
+
+  }
+  .hojas{
+    width: 30%;
+    margin-left: 36%;
+    margin-top: -15%;
+  }
+  
+  .btn_btn-primary{
+    padding: 1px 9px;
+    font-size: 24px;
+    font-weight: 1200;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #E08D84;
+    border-radius: 7px;
+    box-shadow: 1px 1px 30px -5px rgb(253, 213, 255);
+    cursor: pointer;
+    margin-left: 34%;
+    margin-top: 4%;
+    background-image: url(./imagenes/NMG4.gif);
+    background-size: 50%;
+    font-family: 'Dancing Script', cursive; 
+  }
+  .fondo2{
+    margin-top: -2%;
+  }
+ .main1{
+  margin-top: 180%;
+ }
+ .parrafo6{
+  text-align: center;
+    font-family: 'Great Vibes', cursive;
+     font-size: 25px;
+     color: #888888;
+     margin-top: -120%;
+     
+ }
+ .whatsap{
+  width: 40%;
+  margin-left: 30%;
+ }
+.icono{
+  text-align: center;
+    font-family:'Times New Roman', Times, serif; 
+     font-size: 13px;
+     color:#656565;
+    
+ }
+ .whatsap{
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 8%;
+ }
+ .agos{
+  width: 20%;
+  margin-top: -50%;
+  margin-left: 15%;
+ }
+ .jon{
+  width: 20%;
+  margin-top: -50%;
+  margin-left: 18%;
+ }
+ .fondo4{
+  margin-top: -14%;
+ }
+ 
+ .btn-primary3 {
+  padding: 1px 9px;
+  font-size: 24px;
+  font-weight: 1200;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #E08D84;
+  border-radius: 7px;
+  box-shadow: 1px 1px 30px -5px rgb(253, 213, 255);
+  cursor: pointer;
+  margin-left: 38%;
+  margin-top: -4%;
+  background-image: url(./imagenes/NMG4.gif);
+  background-size: 50%;
+  font-family: 'Dancing Script', cursive; 
+ 
+ }
+
+ .parrafo_deposito{
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+   font-size: 25px;
+   color: #888888;
+   margin-top: -120%;
+ }
+ .cbu{
+  width: 60%;
+  margin-left: 23%;
+ }
+
+ .card_card-body img{
+  margin-left: 29%;
+  background-size: 80%;
+  width: 75%;
+}
+.btn_btn-primary2{
+  padding: 1px 9px;
+  font-size: 24px;
+  font-weight: 1200;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #E08D84;
+  border-radius: 7px;
+  box-shadow: 1px 1px 30px -5px rgb(253, 213, 255);
+  cursor: pointer;
+  margin-left: 34%;
+  margin-top: 4%;
+  background-image: url(./imagenes/NMG4.gif);
+  background-size: 50%;
+  font-family: 'Dancing Script', cursive;  
+}
+ .parrafo_esperamos{
+  text-align: center;
+    font-family: 'Dancing Script', cursive;
+     font-size: 24px;
+     color: #888888;
+     margin-top: 40%;
+ }
+ .linea4{
+  margin-top: -5%;
+  color: #f3f3f3;
+}
+.linea5{
+  color:#898989;
+    width: 70%;
+   margin-left: 15%;
+   margin-top: -130%;
+}
+
+
+
+
+.tecla {
+margin-top: -50%;
+ margin-left: 50%;
+}
+
+.box__copyright{
+  margin-top: 32%;
+}
+
+
+.box__copyright p {
+  margin-top: -10px;
+  color: #cacaca;
+  font-size: 10px;
+  text-align: center;
+}
+
+.box__copyright a {
+  text-decoration: none;
+  color: #c3c3c3;
+}
+
+
+.box__copyright p {
+  margin-top: -10px;
+  color: #cacaca;
+  font-size: 10px;
+  text-align: center;
+}
+
+.box__copyright a {
+  text-decoration: none;
+  color: #c3c3c3;
+}
+
+.quince{
+  width: 39%;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.gif-final {
+width: 20%;
+margin-top: -50%;
+margin-left: 32%;
+}
+
+
+.linea4{
+    
+  color: #789d7d;
+}
+.tecla a {
+  text-decoration: none;
+  width: 30px;
+  color: rgb(254, 212, 251);
+  margin-top: -120px;
+}
+
+.tecla {
+margin-top: 5%;
+ margin-left: 50%;
+}
+
+
+.logo{
+  width: 35%;
+  margin-left: 55%;
+  margin-top: -45%;
+}
+}
+ 
