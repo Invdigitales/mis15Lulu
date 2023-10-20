@@ -78,8 +78,8 @@
     border-radius: 50%;
     background: #76887084;
     animation: load-pulse 1s infinite linear;
-    margin-left: 71%;
-    margin-top: -16%;
+    margin-left: 69%;
+    margin-top: -14%;
   }
   
   @keyframes load-pulse {
