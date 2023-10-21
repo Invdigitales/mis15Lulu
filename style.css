@@ -76,10 +76,10 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #76887084;
+    background: #b7cbb084;
     animation: load-pulse 1s infinite linear;
-    margin-left: 69%;
-    margin-top: -14%;
+    margin-left: 73%;
+    margin-top: -17%;
   }
   
   @keyframes load-pulse {
