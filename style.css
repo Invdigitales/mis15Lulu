@@ -381,7 +381,7 @@ margin-top: 5%;
 } 
 
 }
-
+/*
 .spinner {
   height: 50px;
   width: max-content;
@@ -434,13 +434,14 @@ margin-top: 5%;
    transform: translateY(-10px);
   }
  }
+ */
  .loader-pulse {
   width: 34px;
   height: 34px;
   border-radius: 10%;
-  margin-left: 71%;
+  margin-left: 73%;
   margin-top: -15%;
-  background: #beeab3d2;
+  background: #9cb596d2;
   animation: load-pulse 0.85s infinite linear;
 }
 
