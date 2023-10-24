@@ -71,7 +71,9 @@
   
   
 
-
+.fondo1{
+  margin-top: 7%;
+}
 
 .cajaceremonia{
   margin-top: -260%;
@@ -194,9 +196,7 @@
     background-size: 50%;
     font-family: 'Dancing Script', cursive; 
   }
-  .fondo2{
-    margin-top: -2%;
-  }
+  
  .main1{
   margin-top: 180%;
  }
@@ -381,7 +381,7 @@ margin-top: 5%;
 } 
 
 }
-/*
+
 .spinner {
   height: 50px;
   width: max-content;
@@ -434,7 +434,7 @@ margin-top: 5%;
    transform: translateY(-10px);
   }
  }
- */
+
  .loader-pulse {
   width: 34px;
   height: 34px;
