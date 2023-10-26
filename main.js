@@ -71,8 +71,7 @@ function diaEventoAhora () {
       icon: 'success',
       html:
         'INGRESÁ' +
-        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.571089904828!2d-65.2610325!3d-27.138316299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423ad3f9a5ff409%3A0xcd366f17ebdc5ab1!2sParroquia%20Santa%20Rosa%20De%20Lima!5e0!3m2!1ses-419!2sar!4v1697583380021!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>' +
-        'Podes ampliar el mapa',
+        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.2258940471197!2d-58.35577382425123!3d-34.80025827288442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32ca3750492c1%3A0xc15f2a9d46ba7f90!2sVial%20Argentina%20Eventos!5e0!3m2!1ses-419!2sar!4v1698326300171!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
         
         
     })

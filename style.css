@@ -76,17 +76,9 @@
 }
 
 .cajaceremonia{
-  margin-top: -260%;
+  margin-top: -410%;
 }
-  .parrafo1{
-    text-align: center;
-      font-family: 'Great Vibes', cursive;
-       font-size: 27px;
-       color: #fdfdfd;
-       margin-top: -30%;
-       margin-left: 24%;
-       
-  }
+
   
   .linea{
     color:#898989;
@@ -96,34 +88,34 @@
   }
   .parrafo2{
     text-align: center;
-    font-family: 'Dancing Script', cursive; 
+    font-family: 'Julius Sans One', sans-serif;
      font-size: 25px;
-     color:#CF9D9C;
+     color:#D6AB8A;
      
   }
   .parrafo3{
     text-align: center;
-    font-family: 'Great Vibes', cursive;
-     font-size: 25px;
-     color: #888888;
+    font-family: 'Julius Sans One', sans-serif;
+     font-size: 20px;
+     color: #5f5f5f;
   }
   .click1 {
     padding: 1px 9px;
-    font-size: 24px;
-    font-weight: 1200;
+    font-size: 19px;
+    font-weight: 1500;
     border: none;
     color: rgb(255, 255, 255);
-    background-color: #E08D84;
+    background-color: #97B58E;
     border-radius: 7px;
     box-shadow: 1px 1px 30px -5px rgb(253, 213, 255);
     cursor: pointer;
-    margin-left: 34%;
+    margin-left: 32%;
     margin-top: 4%;
-    background-image: url(./imagenes/NMG4.gif);
-    background-size: 50%;
-    font-family: 'Dancing Script', cursive;  
+    background-image: url(./imagenes/mariposa.gif);
+    background-size: 40%;
+    font-family: 'Julius Sans One', sans-serif;
   }
-  .iglesia{
+  .copas{
     width: 20%;
     margin-left: 40%;
   }
