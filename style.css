@@ -104,14 +104,14 @@
     font-size: 19px;
     font-weight: 1500;
     border: none;
-    color: rgb(255, 255, 255);
-    background-color: #97B58E;
+    color: rgb(63, 63, 63);
+    background-color: #b5d99b98;
     border-radius: 7px;
     box-shadow: 1px 1px 30px -5px rgb(253, 213, 255);
     cursor: pointer;
     margin-left: 32%;
     margin-top: 4%;
-    background-image: url(./imagenes/mariposa.gif);
+    background-image: url(./imagenes/mariposaazul.gif);
     background-size: 40%;
     font-family: 'Julius Sans One', sans-serif;
   }
