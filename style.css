@@ -210,8 +210,9 @@
   font-family: 'Julius Sans One', sans-serif;
   
 }
-
-
+.fondo5{
+  margin-top: 12%;
+}
 
 
 
@@ -285,7 +286,11 @@ margin-left: 48%;
     transform: rotate(45deg) translate(20px, 20px);
   }
 }
-
+.lineaverde{
+  width: 70%;
+  margin-top: -240%;
+  margin-left: 15%;
+}
  .whatsap{
   width: 40%;
   margin-left: 30%;
@@ -352,10 +357,10 @@ margin-left: 48%;
 }
  .parrafo_esperamos{
   text-align: center;
-    font-family: 'Dancing Script', cursive;
-     font-size: 24px;
-     color: #888888;
-     margin-top: 40%;
+  font-family: 'Julius Sans One', sans-serif;
+   font-size: 20px;
+   color: #5f5f5f;
+   margin-top: -100%;
  }
  .linea4{
   margin-top: -5%;
@@ -377,7 +382,7 @@ margin-top: -50%;
 }
 
 .box__copyright{
-  margin-top: 32%;
+  margin-top: 48%;
 }
 
 
@@ -408,15 +413,19 @@ margin-top: -50%;
 
 .quince{
   width: 39%;
-  margin-left: 30%;
-  margin-top: 10%;
+  margin-left: 29%;
+  margin-top: -10%;
 }
 .gif-final {
 width: 20%;
-margin-top: -50%;
+margin-top: -28%;
 margin-left: 32%;
 }
-
+.gif-final2 {
+  width: 20%;
+  margin-top: -40%;
+  margin-left: 55%;
+   }
 
 .linea4{
     
@@ -425,7 +434,7 @@ margin-left: 32%;
 .tecla a {
   text-decoration: none;
   width: 30px;
-  color: rgb(254, 212, 251);
+  color: rgb(125, 165, 122);
   margin-top: -120px;
 }
 
