@@ -76,7 +76,7 @@
 }
 
 .cajaceremonia{
-  margin-top: -520%;
+  margin-top: -540%;
 }
 
   
@@ -146,11 +146,14 @@
     background-size: 40%;
     font-family: 'Julius Sans One', sans-serif;
   }
-  .copas{
-    width: 20%;
-    margin-left: 40%;
+  .vestido{
+    margin-top: -15%;
+    width: 40%;
+    margin-left: 35%;
    
   }
+
+
  
   
  
@@ -299,70 +302,53 @@ margin-left: 48%;
   margin-left: 30%;
   margin-top: 8%;
  }
- .agos{
-  width: 20%;
-  margin-top: -50%;
-  margin-left: 15%;
- }
- .jon{
-  width: 20%;
-  margin-top: -50%;
-  margin-left: 18%;
- }
+
  .fondo4{
   margin-top: -14%;
  }
- 
- .btn-primary3 {
-  padding: 1px 9px;
-  font-size: 24px;
-  font-weight: 1200;
-  border: none;
-  color: rgb(255, 255, 255);
-  background-color: #E08D84;
-  border-radius: 7px;
-  box-shadow: 1px 1px 30px -5px rgb(253, 213, 255);
-  cursor: pointer;
-  margin-left: 38%;
-  margin-top: -4%;
-  background-image: url(./imagenes/NMG4.gif);
-  background-size: 50%;
-  font-family: 'Dancing Script', cursive; 
- 
- }
 
- .parrafo_deposito{
+ .parrafo7{
   text-align: center;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Julius Sans One', sans-serif;
    font-size: 25px;
-   color: #888888;
-   margin-top: -120%;
- }
- .cbu{
-  width: 60%;
-  margin-left: 23%;
- }
+   color:#4f1bfb;
+   margin-top: 10%;
+}
+.parrafo8{
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+   font-size: 20px;
+   color: #5f5f5f;
+}
+.musica{
+  width: 6%;
+  margin-left: 47%;
+  margin-top: -3%;
 
+ 
+}
  .card_card-body img{
   margin-left: 29%;
   background-size: 80%;
   width: 75%;
 }
-.btn_btn-primary2{
-  padding: 1px 9px;
-  font-size: 24px;
-  font-weight: 1200;
-  border: none;
-  color: rgb(255, 255, 255);
-  background-color: #E08D84;
-  border-radius: 7px;
-  box-shadow: 1px 1px 30px -5px rgb(253, 213, 255);
-  cursor: pointer;
-  margin-left: 34%;
-  margin-top: 4%;
-  background-image: url(./imagenes/NMG4.gif);
-  background-size: 50%;
-  font-family: 'Dancing Script', cursive;  
+.click2{
+  text-decoration: none;
+  padding: 2px 10px;
+    font-size: 18px;
+    font-weight: 1500;
+    border: none;
+    color: #56506c;
+    background-color: #b5d99b98;
+    border-radius: 7px;
+    box-shadow: 1px 1px 30px -5px rgb(253, 213, 255);
+    cursor: pointer;
+    margin-left: 23%;
+    margin-top: 4%;
+    background-image: url(./imagenes/mariposaazul.gif);
+    background-size: 40%;
+    font-family: 'Julius Sans One', sans-serif;
+
 }
  .parrafo_esperamos{
   text-align: center;
